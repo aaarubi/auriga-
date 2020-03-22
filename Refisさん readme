@@ -1,0 +1,23 @@
+いつもauriga開発お疲れ様です。
+
+
+現在Aurigaの構築をしていてcharサーバーがセーブデータを保存してくれなくて困っています。
+
+環境：Windows 10 home
+Aurigaのバージョンは少し古いです。（2019年頃のもの、知識不足で確認方法わかりません）
+TXTモード
+
+アカウント(save/account.txt)は保存されるのですが、キャラデータやアイテム等(save/auriga.txt)が全く保存されません。
+CTRL+Cでサーバーを閉じてもauriga.txt_0001.tmpという名のファイルが増えていくばかりです。
+storage.txtも更新されません。
+
+inter_auriga.confやchar_auriga.confのルートも弄っておらず初期値のままなので合っています。
+
+account.txtの中には
+150000	%newid%
+としか書かれていません。
+
+なにか思い当たるところはありますでしょうか・・・
+もしよろしければご連絡いただきたいです。
+
+blkzjp@gmail.com
